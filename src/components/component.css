@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+a{
+  display: block;
+padding: 10px;
+  margin: 5px;
+}
