@@ -6,3 +6,32 @@
 body{
   height: 100vh;
 }
+
+
+section{
+  height: 50vh;
+}
+section h1{
+  padding: 30px;
+  text-align: center;
+
+}
+
+section article{
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section article p {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+section article img{
+  margin: 0 20px 10px 0;
+  width: 30%;
+  float: right;
+}

@@ -1,7 +1,21 @@
+
+/* Navbar */
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+  
+nav .enlaces{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+nav  .logo{
+  display: flex;
+  align-items: center;
 }
 
 a{
@@ -9,3 +23,5 @@ a{
 padding: 10px;
   margin: 5px;
 }
+
+
