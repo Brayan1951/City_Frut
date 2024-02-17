@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
-import {HomePage,CartaPage,Conocenos,NotFoundPage, InicioPage} from '../pages'
+import {HomePage,CartaPage,Conocenos,NotFoundPage, InicioPage, CremoladasPage, PromocionesPage} from '../pages'
 
 
 export default function RouterApp() {
@@ -13,6 +13,12 @@ export default function RouterApp() {
                 },
                 {
                     path:'carta', element:<CartaPage/>
+                },
+                {
+                    path:'carta/cremoladas', element:<CremoladasPage/>
+                },
+                {
+                    path:'carta/promociones', element:<PromocionesPage/>
                 },
                 {
                     path:'conocenos', element:<Conocenos/>

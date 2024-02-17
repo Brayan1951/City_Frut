@@ -1,16 +1,15 @@
 import React from 'react'
-
-import cremoladas from './../assets/tamaños_2.jpg'
-import lucuma from './../assets/LUCUMA.png'
-import mango from './../assets/mango.jpg'
-import testimonio from './../assets/apoyo.jpg'
+import './inicio.css'
+import cremoladas from './../../assets/tamaños_2.jpg'
+import mango from './../../assets/mango.jpg'
+import testimonio from './../../assets/apoyo.jpg'
 
 export default function InicioPage() {
   return (
 
     <main>
       {/* Introduccion */}
-      <section>
+      <section  className='introduccion'>
         <h1>CREMOLADAS DE PURA HECHOS CON EL SABOR PERUANO</h1>
         <article>
 
@@ -20,9 +19,9 @@ export default function InicioPage() {
       </section>
 
       {/* Nuevos Sabores */}
-      <section>
+      <section className='sabores'>
         <h1>Nuevos Sabores</h1>
-        <div className='sabores'>
+        <div >
 
           <figure>
             <img src={mango} alt="" />
@@ -37,9 +36,9 @@ export default function InicioPage() {
 
       </section>
       {/* Testimonios */}
-      <section className='testimoniio'>
+      <section className='testimonio'>
         <h1>Testimonios</h1>
-        <article>
+        <article className='descripcion'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quas. Rem ducimus consequuntur non molestias dolore voluptatem laborum fugit, optio eum id corporis dolor dignissimos sequi maiores commodi ex odit.</p>
 
           <img src={testimonio} alt="" />

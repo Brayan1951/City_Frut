@@ -5,6 +5,8 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     padding: 5px 20px;
+    background-color: #711DB0;
+    color: white;
   }
   
 nav .enlaces{
@@ -12,6 +14,11 @@ nav .enlaces{
   flex-direction: row;
   
 }
+
+nav .enlaces .active{
+color: rgb(175, 175, 175);
+}
+
 
 nav  .logo{
   display: flex;
@@ -22,6 +29,8 @@ a{
   display: block;
 padding: 10px;
   margin: 5px;
+  color: white;
+  text-decoration: none;
 }
 
 
