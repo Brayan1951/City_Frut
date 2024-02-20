@@ -1,0 +1,28 @@
+.opciones a{
+    color: black;
+}
+
+.opciones h2{
+    /* width: 100%;
+    vertical-align: middle; */
+    margin: auto;
+    /* text-align: center; */
+}
+.opciones article{
+    width: 50%;
+    border-radius: 10px;
+    margin: 20PX auto;
+    background-color: beige;
+}
+.opciones article:hover{background-color: aqua;}
+
+
+.opciones article img{
+    width: 30% !important;
+    border-radius: 5px;
+}
+
+.promocion img{
+    width: 90%;
+    margin: auto;
+}

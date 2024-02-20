@@ -23,7 +23,7 @@ section{
   }
   .introduccion article img{
     margin: 20px 10px;
-    width: 30%;
+    width: 30% !important;
     float: right;
   }
   

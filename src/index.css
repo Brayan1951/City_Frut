@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.notfound a{
+  color: black;
+}
 
 body{
   height: 100vh;

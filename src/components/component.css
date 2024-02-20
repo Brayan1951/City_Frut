@@ -33,4 +33,11 @@ padding: 10px;
   text-decoration: none;
 }
 
-
+/* card */
+.cremolada{
+  width: 100%;
+}
+.cremolada img{
+  width: 90%;
+  margin: 20px 10px;
+}
