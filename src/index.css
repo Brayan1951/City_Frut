@@ -10,3 +10,10 @@ body{
   height: 100vh;
 }
 
+.notfound {
+  /* height: 100vh; */
+  /* background-color: #F9F1DF; */
+}
+.notfound img{
+  width: 100%;
+}

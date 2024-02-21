@@ -23,11 +23,10 @@ export default function RouterApp() {
                 {
                     path:'conocenos', element:<Conocenos/>
                 },
+                {
+                    path:'*', element:<NotFoundPage/>
+                }
             ]
-        },
-      
-        {
-            path:'*', element:<NotFoundPage/>
         }
     ])
 
