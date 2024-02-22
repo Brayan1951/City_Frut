@@ -4,6 +4,7 @@ import {HomePage,CartaPage,Conocenos,NotFoundPage, InicioPage, CremoladasPage, P
 
 
 export default function RouterApp() {
+    const routerBaseName='/City_Frut'
 
     const router=createBrowserRouter([
         {
@@ -28,7 +29,7 @@ export default function RouterApp() {
                 }
             ]
         }
-    ])
+    ],{basename:routerBaseName})
 
 
   return router
