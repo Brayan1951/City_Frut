@@ -26,18 +26,7 @@ export default function CartaPage() {
         </Link>
 
 
-        <article>
 
-          <h2>Carta de Pura Freuta</h2>
-          <img src={fruta} alt="" />
-
-        </article>
-        <article>
-
-          <h2>Carta de Pura Freuta</h2>
-          <img src={fruta} alt="" />
-
-        </article>
 
 
 

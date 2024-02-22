@@ -1,37 +1,29 @@
 
 /* Navbar */
 nav{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 20px;
+    justify-content: space-between; */
+    /* padding: 20px 20px; */
     background-color: #711DB0;
     color: white;
   }
   
-nav .enlaces{
-  display: flex;
-  flex-direction: row;
-  
+  nav h1{
+    font-size: 50px;
+  }
+.nav-link{
+  color: white  ;
+font-size:25px;
 }
 
-nav .enlaces .active{
-color: rgb(175, 175, 175);
+.active{
+
+color: rgb(130, 130, 130) !important;
+padding: 15px;
 }
 
 
-nav  .logo{
-  display: flex;
-  align-items: center;
-}
-
-a{
-  display: block;
-padding: 10px;
-  margin: 5px;
-  color: white;
-  text-decoration: none;
-}
 
 /* card */
 .cremolada{
