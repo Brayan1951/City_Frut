@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 // import notfound from './../assets/girl-4.png'
-import notfound from './../assets/girl-5.png'
+import notfound from './../assets/img/girl-5.png'
 // import notfound from './../assets/notfound-3.png'
 
 

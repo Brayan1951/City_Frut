@@ -1,5 +1,5 @@
 import React from 'react'
-import apoyo from '../../assets/apoyo.jpg'
+import apoyo from '../../assets/img/apoyo.jpg'
 
 export default function Conocenos() {
   return (

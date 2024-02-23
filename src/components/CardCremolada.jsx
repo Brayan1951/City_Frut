@@ -1,5 +1,5 @@
 import React from 'react'
-import fruta from "./../assets/purafruta.jpg"
+import fruta from "./../assets/img/purafruta.jpg"
 
 export default function CardCremolada() {
   return (
