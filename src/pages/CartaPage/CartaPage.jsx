@@ -8,22 +8,32 @@ export default function CartaPage() {
     <main>
       <section className='opciones'>
 
-        <Link to={'./cremoladas'}>
-          <article>
+          <article className='cremoladas'>
+        <Link className='row' to={'./cremoladas'}>
+            <div className="col-md-6 text-center row justify-content-center p-2">
 
-            <h2>Carta de Pura Fruta</h2>
+            <h2 className='text-center'>Carta de Pura Fruta</h2>
+            </div>
+            <div className="col-md text-center text-md-end">
+
             <img src={fruta} alt="" />
+            </div>
 
-          </article>
         </Link>
-        <Link to={'./promociones'}>
-          <article>
+          </article>
+          <article className='promociones'>
+        <Link className='row' to={'./promociones'}>
+          <div className="col-md-6 text-center row justify-content-center p-2">
 
-            <h2>Promociones</h2>
+            <h2 className='text-center'>Promociones</h2>
+          </div>
+          <div className="col-md text-center text-md-end">
+
             <img src={fruta} alt="" />
+          </div>
 
-          </article>
         </Link>
+          </article>
 
 
 
