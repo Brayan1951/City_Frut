@@ -1,6 +1,7 @@
 import React from 'react'
 import './carta.css'
-import fruta from "./../../assets/img/purafruta.jpg"
+import fruta from "./../../assets/purafruta.jpg"
+// import fruta from "./../../assets/img/purafruta.jpg"
 import { Link } from 'react-router-dom'
 
 export default function CartaPage() {

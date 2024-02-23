@@ -1,6 +1,8 @@
 import React from 'react'
-import sorteo from './../../assets/img/sorteo.jpg'
-import ami from './../../assets/img/apoyo.jpg'
+import sorteo from './../../assets/sorteo.jpg'
+import ami from './../../assets/apoyo.jpg'
+// import sorteo from './../../assets/img/sorteo.jpg'
+// import ami from './../../assets/img/apoyo.jpg'
 
 export default function PromocionesPage() {
   return (
