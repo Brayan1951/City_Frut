@@ -8,7 +8,10 @@ nav{
     background-color: #711DB0;
     color: white;
   }
-  
+  .offcanvas{
+    
+    background-color: #711DB0;
+}
   nav h1{
     font-size: 50px;
   }

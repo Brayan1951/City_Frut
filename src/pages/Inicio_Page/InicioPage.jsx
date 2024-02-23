@@ -1,7 +1,8 @@
 import React from 'react'
 import './inicio.css'
 import cremoladas from './../../assets/tamaños_2.jpg'
-import mango from './../../assets/mango.jpg'
+import mango from './../../assets/icon_chocolate.png'
+import piña from './../../assets/icon_piña.png'
 import testimonio from './../../assets/apoyo.jpg'
 
 export default function InicioPage() {
@@ -9,28 +10,58 @@ export default function InicioPage() {
 
     <main>
       {/* Introduccion */}
-      <section  className='introduccion'>
-        <h1>CREMOLADAS DE PURA HECHOS CON EL SABOR PERUANO</h1>
-        <article>
 
-          <p>El amor de Okasan es el secreto de nuestras delicias. Nuestros postres japoneses representan el corazón y el alma de la tradición culinaria japonesa</p>
-          <img src={cremoladas} alt="" />
+
+
+
+      <section className='introduccion'>
+        <h1>CREMOLADAS DE PURA HECHOS CON EL SABOR PERUANO</h1>
+        <article className='row text-center'>
+          <div className="col-md-6">
+
+            <p>
+
+              <em>
+
+                "El amor de CityFrut es el secreto de nuestras delicias. Nuestros postres de pura fruta representan el corazón y el alma de la tradición Peruana"
+              </em>
+
+            </p>
+          </div>
+          <div className="col-md mx-auto">
+
+            <img src={cremoladas} alt="" />
+          </div>
         </article>
       </section>
+
+
+
+
+
+
 
       {/* Nuevos Sabores */}
       <section className='sabores'>
         <h1>Nuevos Sabores</h1>
-        <div >
+        <div className='row'>
 
-          <figure>
+          <figure className="col-md-6 row justify-content-center">
             <img src={mango} alt="" />
             {/* <img src={lucuma} alt="" /> */}
-            <figcaption>Sabor Lucuma</figcaption>
+            <figcaption className='text-center'>
+              <h2>
+                Sabor Chocolate
+              </h2>
+            </figcaption>
           </figure>
-          <figure>
-            <img src={mango} alt="" />
-            <figcaption>Sabor Lucuma</figcaption>
+          <figure className="col-md row justify-content-center">
+            <img src={piña} alt="" />
+            <figcaption className='text-center'>
+              <h2>
+                Sabor Piña
+              </h2>
+            </figcaption>
           </figure>
         </div>
 
@@ -38,10 +69,19 @@ export default function InicioPage() {
       {/* Testimonios */}
       <section className='testimonio'>
         <h1>Testimonios</h1>
-        <article className='descripcion'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quas. Rem ducimus consequuntur non molestias dolore voluptatem laborum fugit, optio eum id corporis dolor dignissimos sequi maiores commodi ex odit.</p>
+        <article className='descripcion row justify-content-center'>
+          <div className="col-md-6">
 
-          <img src={testimonio} alt="" />
+            <p>
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quas. Rem ducimus consequuntur non molestias dolore voluptatem laborum fugit, optio eum id corporis dolor dignissimos sequi maiores commodi ex odit.
+
+            </p>
+          </div>
+          <div className="col-md text-center">
+
+            <img src={testimonio} alt="" />
+          </div>
         </article>
       </section>
 
