@@ -27,15 +27,15 @@ export default function InicioPage() {
 
               <em>
 
-                "El amor de CityFrut es el secreto de nuestras delicias. Nuestros postres de pura fruta representan el corazón y el alma de la tradición Peruana"
+                "El holi amor de CityFrut es el secreto de nuestras delicias. Nuestros postres de pura fruta representan el corazón y el alma de la tradición Peruana"
               </em>
 
             </p>
           </div>
           <div className="col-md mx-auto">
-            <img src="./src/assets/tamaños_2.jpg" alt="" />
+            {/* <img src="./src/assets/tamaños_2.jpg" alt="" /> */}
 
-            {/* <img src={cremoladas} alt="" /> */}
+            <img src={`./${cremoladas}`} alt="cremolada" />
           </div>
         </article>
       </section>
