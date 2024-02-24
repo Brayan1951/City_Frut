@@ -33,8 +33,9 @@ export default function InicioPage() {
             </p>
           </div>
           <div className="col-md mx-auto">
+            <img src="./src/assets/tamaños_2.jpg" alt="" />
 
-            <img src={cremoladas} alt="" />
+            {/* <img src={cremoladas} alt="" /> */}
           </div>
         </article>
       </section>
