@@ -6,7 +6,7 @@ import {HomePage,CartaPage,Conocenos,NotFoundPage, InicioPage, CremoladasPage, P
 export default function RouterApp() {
     const routerBaseName='/City_Frut'
 
-    const router=createHashRouter([
+    const router=createBrowserRouter([
         {
             path:'/',element:<HomePage/>,children:[
                 {
