@@ -1,9 +1,6 @@
 import React from 'react'
 import './inicio.css'
-// import cremoladas from './../../assets/tamaños_2.jpg'
-// import chocolate from './../../assets/icon_chocolate.png'
-// import piña from './../../assets/icon_piña.png'
-// import testimonio from './../../assets/apoyo.jpg'
+
 import cremoladas from './../../assets/img/tamaños_2.jpg'
 import chocolate from './../../assets/img/icon_chocolate.png'
 import piña from './../../assets/img/icon_piña.png'

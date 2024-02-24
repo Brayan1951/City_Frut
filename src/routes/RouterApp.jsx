@@ -1,12 +1,12 @@
 import React from 'react'
-import { createBrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter } from 'react-router-dom'
 import {HomePage,CartaPage,Conocenos,NotFoundPage, InicioPage, CremoladasPage, PromocionesPage} from '../pages'
 
 
 export default function RouterApp() {
     const routerBaseName='/City_Frut'
 
-    const router=createBrowserRouter([
+    const router=createHashRouter([
         {
             path:'/',element:<HomePage/>,children:[
                 {
@@ -32,7 +32,7 @@ export default function RouterApp() {
         {
             path:'*', element:<NotFoundPage/>
         }
-    ],{basename:routerBaseName})
+    ])
 
 
   return router
