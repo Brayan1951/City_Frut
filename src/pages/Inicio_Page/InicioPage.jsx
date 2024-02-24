@@ -51,7 +51,7 @@ export default function InicioPage() {
         <div className='row'>
 
           <figure className="col-md-6 row justify-content-center">
-            <img src={`${chocolate}`} alt="crenolada de chocolate" />
+            <img src={`./${chocolate}`} alt="crenolada de chocolate" />
             <figcaption className='text-center'>
               <h2>
                 Sabor Chocolate
@@ -59,7 +59,7 @@ export default function InicioPage() {
             </figcaption>
           </figure>
           <figure className="col-md row justify-content-center">
-            <img src={`${piña}`} alt="cremolada de piña" />
+            <img src={`./${piña}`} alt="cremolada de piña" />
             <figcaption className='text-center'>
               <h2>
                 Sabor Piña
@@ -83,7 +83,7 @@ export default function InicioPage() {
           </div>
           <div className="col-md text-center">
 
-            <img src={`${testimonio}`} alt="foto de pareja" />
+            <img src={`./${testimonio}`} alt="foto de pareja" />
           </div>
         </article>
       </section>

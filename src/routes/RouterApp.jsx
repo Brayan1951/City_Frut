@@ -28,6 +28,9 @@ export default function RouterApp() {
                     path:'*', element:<NotFoundPage/>
                 }
             ]
+        },
+        {
+            path:'*', element:<NotFoundPage/>
         }
     ],{basename:routerBaseName})
 
