@@ -1,6 +1,6 @@
 import React from 'react'
-import apoyo from '../../assets/apoyo.jpg'
-// import apoyo from '../../assets/img/apoyo.jpg'
+// import apoyo from '../../assets/apoyo.jpg'
+import apoyo from '../../assets/img/apoyo.jpg'
 
 export default function Conocenos() {
   return (
@@ -44,7 +44,7 @@ export default function Conocenos() {
 
           </form>
           <div className="col-6">
-            <img src={apoyo} alt="" />
+            <img src={`./${apoyo}`}  alt="" />
           </div>
 
         </div>

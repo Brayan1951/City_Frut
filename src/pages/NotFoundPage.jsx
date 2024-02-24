@@ -16,7 +16,7 @@ export default function NotFoundPage() {
 
 
       <div className="col">
-        <img src={notfound} alt="" />
+        <img src={`./${notfound}`}  alt="" />
 
       </div>
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import './inicio.css'
-import cremoladas from './../../assets/tamaños_2.jpg'
-import mango from './../../assets/icon_chocolate.png'
-import piña from './../../assets/icon_piña.png'
-import testimonio from './../../assets/apoyo.jpg'
-// import cremoladas from './../../assets/img/tamaños_2.jpg'
-// import mango from './../../assets/img/icon_chocolate.png'
-// import piña from './../../assets/img/icon_piña.png'
-// import testimonio from './../../assets/img/apoyo.jpg'
+// import cremoladas from './../../assets/tamaños_2.jpg'
+// import chocolate from './../../assets/icon_chocolate.png'
+// import piña from './../../assets/icon_piña.png'
+// import testimonio from './../../assets/apoyo.jpg'
+import cremoladas from './../../assets/img/tamaños_2.jpg'
+import chocolate from './../../assets/img/icon_chocolate.png'
+import piña from './../../assets/img/icon_piña.png'
+import testimonio from './../../assets/img/apoyo.jpg'
 
 export default function InicioPage() {
   return (
@@ -27,13 +27,12 @@ export default function InicioPage() {
 
               <em>
 
-                "El holi amor de CityFrut es el secreto de nuestras delicias. Nuestros postres de pura fruta representan el corazón y el alma de la tradición Peruana"
+                "El amor de CityFrut es el secreto de nuestras delicias. Nuestros postres de pura fruta representan el corazón y el alma de la tradición Peruana"
               </em>
 
             </p>
           </div>
           <div className="col-md mx-auto">
-            {/* <img src="./src/assets/tamaños_2.jpg" alt="" /> */}
 
             <img src={`./${cremoladas}`} alt="cremolada" />
           </div>
@@ -52,8 +51,7 @@ export default function InicioPage() {
         <div className='row'>
 
           <figure className="col-md-6 row justify-content-center">
-            <img src={mango} alt="" />
-            {/* <img src={lucuma} alt="" /> */}
+            <img src={`${chocolate}`} alt="crenolada de chocolate" />
             <figcaption className='text-center'>
               <h2>
                 Sabor Chocolate
@@ -61,7 +59,7 @@ export default function InicioPage() {
             </figcaption>
           </figure>
           <figure className="col-md row justify-content-center">
-            <img src={piña} alt="" />
+            <img src={`${piña}`} alt="cremolada de piña" />
             <figcaption className='text-center'>
               <h2>
                 Sabor Piña
@@ -85,7 +83,7 @@ export default function InicioPage() {
           </div>
           <div className="col-md text-center">
 
-            <img src={testimonio} alt="" />
+            <img src={`${testimonio}`} alt="foto de pareja" />
           </div>
         </article>
       </section>

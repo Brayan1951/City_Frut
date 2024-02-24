@@ -1,13 +1,13 @@
 import React from 'react'
-import fruta from "./../assets/purafruta.jpg"
-// import fruta from "./../assets/img/purafruta.jpg"
+// import fruta from "./../assets/purafruta.jpg"
+import fruta from "./../assets/img/purafruta.jpg"
 
 export default function CardCremolada() {
   return (
     <div className=" cremolada card m-3" >
     <div className="row g-0">
       <div className="col-md-5">
-        <img src={fruta}  className="img-fluid rounded-start" alt="" />
+        <img src={`./${fruta}`}   className="img-fluid rounded-start" alt="" />
       </div>
       <div className="col-md">
         <div className="card-body ">

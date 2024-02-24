@@ -1,8 +1,8 @@
 import React from 'react'
-import sorteo from './../../assets/sorteo.jpg'
-import ami from './../../assets/apoyo.jpg'
-// import sorteo from './../../assets/img/sorteo.jpg'
-// import ami from './../../assets/img/apoyo.jpg'
+// import sorteo from './../../assets/sorteo.jpg'
+// import ami from './../../assets/apoyo.jpg'
+import sorteo from './../../assets/img/sorteo.jpg'
+import ami from './../../assets/img/apoyo.jpg'
 
 export default function PromocionesPage() {
   return (
@@ -40,7 +40,7 @@ export default function PromocionesPage() {
               </div>
             </div>
             <div className="col-md-4 row text-center align-items-center">
-              <img src={ami} className="img-fluid rounded-start" alt="..." />
+              <img src={`./${ami}`}  className="img-fluid rounded-start" alt="..." />
             </div>
           </div>
         </div>
