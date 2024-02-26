@@ -1,0 +1,14 @@
+.conocenos{
+    width: 80%;
+    margin: auto;
+}
+
+.opinion img {
+    width: 100%;
+    /* min-width: 205px; */
+    /* margin: 20px; */
+}
+
+.nosotros p{
+text-align: justify;
+}

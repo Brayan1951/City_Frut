@@ -7,7 +7,7 @@ export default function CardCremolada({cremolada}) {
   console.log(cremolada);
 
   return (
-    <div className=" cremolada card m-3" >
+    <div className=" cremolada card m-md-3 p-3 p-md-0" >
     <div className="row g-0">
       <div className="col-md-5">
         <img src={`${ruta}`}   className="img-fluid rounded-start" alt={alt} />
