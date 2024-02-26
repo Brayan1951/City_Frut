@@ -1,7 +1,12 @@
 import React from 'react'
 import CardCremolada from '../../components/CardCremolada'
-// import chocolate from 'src'
-
+import cremolada_chocolate from './../../assets/img/icon_chocolate.png'
+import cremolada_fresa from './../../assets/img/icon_fresa.png'
+import cremolada_coco from './../../assets/img/icon_coco.png'
+import cremolada_guanabana from './../../assets/img/icon_guanabana.png'
+import cremolada_lucuma from './../../assets/img/icon_lucuma.png'
+import cremolada_menta from './../../assets/img/icon_menta.png'
+import cremolada_piña from './../../assets/img/icon_piña.png'
 
 
 export default function CremoladasPage() {
@@ -11,43 +16,43 @@ export default function CremoladasPage() {
       nombre: 'Cremolada de Chocolate',
       alt: 'Cremolada de chocolate',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a chochomilk!!',
-      ruta: "./src/assets/img/icon_chocolate.png"
+      ruta: cremolada_chocolate 
     },
     {
       nombre: 'Cremolada de fresa',
       alt: 'Cremolada de fresa',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a Fresa!!',
-      ruta: "./src/assets/img/icon_fresa.png"
+      ruta: cremolada_fresa
     },
     {
       nombre: 'Cremolada de coco',
       alt: 'Cremolada de coco',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a coco!!',
-      ruta: "./src/assets/img/icon_coco.png"
+      ruta:cremolada_coco
     },
     {
       nombre: 'Cremolada de guanabana',
       alt: 'Cremolada de guanabana',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a guanabana!!',
-      ruta: "./src/assets/img/icon_guanabana.png"
+      ruta:cremolada_guanabana
     },
     {
       nombre: 'Cremolada de lucuma',
       alt: 'Cremolada de lucuma',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a lucuma!!',
-      ruta: "./src/assets/img/icon_lucuma.png"
+      ruta:cremolada_lucuma
     },
     {
       nombre: 'Cremolada de piña',
       alt: 'Cremolada de piña',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a piña!!',
-      ruta: "./src/assets/img/icon_piña.png"
+      ruta:cremolada_menta
     },
     {
       nombre: 'Cremolada de menta',
       alt: 'Cremolada de menta',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a menta!!',
-      ruta: "./src/assets/img/icon_menta.png"
+      ruta:cremolada_piña
     },
   ]
 
