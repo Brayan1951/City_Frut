@@ -15,8 +15,11 @@ export default function NotFoundPage() {
         <p>No te preocupes vuelve a refrescarte, presionando el boton</p>
         </div>
         <div className="boton-regreso">
-
-        <button className=' text-center justify-content-center'>Regresa aqui</button>
+        <button className=' text-center justify-content-center'>
+        <Link to={"/"}>
+          Regresa aqui
+        </Link>
+          </button>
         </div>
       </div>
 
