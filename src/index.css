@@ -9,5 +9,20 @@
 
 
 .notfound img{
+  min-width: 250px;
   width: 100%;
+}
+
+.notfound p{
+  width: 50%;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.notfound button{
+  background-color: #FFA732;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  min-width: 200px;
+  width: 25%;
 }
