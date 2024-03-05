@@ -65,6 +65,12 @@ section{
     
   } 
   
+  /* .testimonio .descripcion .texto {
+    width: 90%;
+    height: 40%;
+   background-color: white;
+  } */
+  
   .testimonio .descripcion img{
   width: 70%;
   border-radius: 20px;

@@ -8,18 +8,24 @@ export default function Conocenos() {
     <main>
       <section className='nosotros text-center mt-4'>
         <h3>Sobre nosotros </h3>
-        <div className="mt-3 mb-5 px-5">
+        <div className="mt-3 mb-5 ">
 
-        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem cum nihil. Repellendus architecto, voluptatum, vero perferendis culpa suscipit voluptatibus iusto commodi aspernatur laudantium aliquam officia laboriosam necessitatibus rerum natus.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At non cumque corrupti laudantium tempore neque? Reprehenderit soluta, illo excepturi debitis dolor cumque itaque ad molestias dolorum ex, ipsa distinctio aperiam.
-        Doloremque in, autem consequuntur totam nostrum rem cupiditate, cum aperiam sit asperiores nobis similique inventore neque voluptates repellat odio soluta dolore officia architecto accusamus laborum harum ipsum nisi! Minima, numquam.</p>
+        <p className=''>Somos una familia emprendedora que por diversas y divertidas prubeas estamos enfrentando la situacion del Perú de una manera muy refrescante y delicisa</p>
+        <p>
+        Lima es la capital del Perú, la cual tiene muchos dificultades que existen. <br/>
+        Entre una de ellas son las altas olas de calor que se esta afectando al país, donde los lugares turísticos o fuentes de soda, que brindan un servicio de venta de productos fríos, son recurrentes para los extranjeros y peruanos que quieren refrescarse para de alguna forma de combatir el calor de manera refrescante y divertida.
+        
+        </p>
+
+
+
         </div>
       </section>
 
       <section className='conocenos'>
 
         <h2 className='text-center'>Queremos saber tu opinion</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium numquam quia itaque corrupti nam voluptatibus nihil! Nulla dolor non blanditiis velit tempore omnis natus aut sed nesciunt, cum dolorem fugit?</p>
+        <p>Nosotrs la empresa cityfrtu te agradecemos por llegar hasta aquí, es por eso que queremos mejorar para brindarles la mejor experiencia posible, y una de las maneras que podemos conseguirlo es con la ayuda de ustedes con sus mensajes</p>
 
         <div className="opinion row p-5">
 
@@ -51,6 +57,9 @@ export default function Conocenos() {
                 <label className="floatingTextarea">Cuentanos tu experiencia</label>
               </div>
             </div>
+            {/* <div className="col-12"> */}
+              <button className='col-12 btn btn-outline-success my-2'>Enviar</button>
+            {/* </div> */}
 
           </form>
           <div className=" col-md-6 mt-2  p-md-3">

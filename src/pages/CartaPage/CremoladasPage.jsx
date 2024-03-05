@@ -46,13 +46,13 @@ export default function CremoladasPage() {
       nombre: 'Cremolada de piña',
       alt: 'Cremolada de piña',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a piña!!',
-      ruta:cremolada_menta
+      ruta:cremolada_piña
     },
     {
       nombre: 'Cremolada de menta',
       alt: 'Cremolada de menta',
       descripcion: 'Para los amantes a lo dulce, cremolada sabor a menta!!',
-      ruta:cremolada_piña
+      ruta:cremolada_menta
     },
   ]
 

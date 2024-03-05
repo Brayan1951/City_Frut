@@ -18,9 +18,18 @@ export default function PromocionesPage() {
             </div>
             <div className="col-lg-8 col-ms-8 ">
                 <h2 className="card-title text-center mt-5">Promocion de Apertura</h2>
-                <p className="card-text px-4 py-4 fs-4  lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel nemo qui magni, explicabo inventore vero animi, eligendi obcaecati veritatis ab distinctio! Minima beatae unde adipisci obcaecati maiores fuga. Sunt.
-                Ut fuga autem eligendi dolor quibusdam aut vel alias aspernatur qui! In illum facilis maiores et voluptas, cumque mollitia ex unde omnis possimus aperiam fugiat tempore rerum totam rem quidem.
-                Enim odit ullam deleniti aliquam amet hic aliquid repellat? Animi esse veniam aut qui! Omnis voluptates tempora suscipit! Quisquam libero accusantium ea animi voluptates sequi officiis pariatur ducimus a suscipit?
+                <p className="card-text px-4 py-4 fs-4  lh-lg">
+
+                Acercate toda la primera semana de abril<br/>
+                CityFrut ha enloquecido, ganate una <strong> Super Copa </strong> de Edicion especial <br/>
+                Solo tienes que seguir los siguientes pasos
+                <ol>
+                  <li>Resfrecate pidiendo tu cremolada favorita</li>
+                  <li>Tomale Foto y sube tu historia a instragran eiquetando  <a target='_blank' href="https://www.instagram.com/cityfrut_/">@CityFrut</a> </li>
+                  <li>Pasale la voz a tus amigos y que le den ❤️</li>
+                </ol>
+                La historia con más ❤️ ganara la <strong> Super Copa </strong>
+
                 </p>
               <div className="card-body">
               </div>
@@ -32,9 +41,21 @@ export default function PromocionesPage() {
             
             <div className=" col-lg-8 col-ms-8  accordion  ">
                 <h2 className="card-title text-center mt-5">Promocion de San valentin</h2>
-                <p className="card-text px-4 py-4 fs-4  lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel nemo qui magni, explicabo inventore vero animi, eligendi obcaecati veritatis ab distinctio! Minima beatae unde adipisci obcaecati maiores fuga. Sunt.
-                Ut fuga autem eligendi dolor quibusdam aut vel alias aspernatur qui! In illum facilis maiores et voluptas, cumque mollitia ex unde omnis possimus aperiam fugiat tempore rerum totam rem quidem.
-                Enim odit ullam deleniti aliquam amet hic aliquid repellat? Animi esse veniam aut qui! Omnis voluptates tempora suscipit! Quisquam libero accusantium ea animi voluptates sequi officiis pariatur ducimus a suscipit?
+                <p className="card-text px-4 py-4 fs-4  lh-lg">
+                CityFrut esta modo romantico <br/>
+                Hoy por el dia del amor y de la amistad, nuestros local esta ambientado para esos buenos momentos<br/>
+                Y que mejor manera de hacerlos con una refrescante cremolada. <br/>
+                Solo por hoy tambien estamos ofrenciendo aparetivos y bebidas <br/>
+                En nuestro nuevo menu de Valentin tenemos:
+                <ul>
+                <li>Triples</li>  
+                <li>Tostadas</li>  
+                <li>Pancakes</li>  
+                <li>Infusiones</li>  
+                <li>Cafe y Capuccion</li>  
+                </ul>  
+                  
+              
                 </p>
               <div className="card-body">
               </div>
